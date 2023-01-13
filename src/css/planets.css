@@ -1,0 +1,360 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+}
+
+.about{
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    overflow: hidden;
+
+    box-sizing: border-box;
+
+}
+
+.menu{
+    background: linear-gradient(130deg, rgba(37, 37, 37, 0.664) 0%, rgba(77, 75, 75, 0.753) 32%, rgba(12,12,13,1) 62%);
+    width: 100%;
+    padding: 40px 40px;
+    display: flex;
+    justify-content:end;
+
+    box-sizing: border-box;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li > a{
+    display: flex;
+    padding: 20px;
+    position: relative;
+    text-decoration: none;
+
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+
+.menu ul li .link::before{
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+
+    background: linear-gradient(87deg, rgb(2, 77, 175) 19%, blueviolet 83%);
+}
+
+.menu ul li .link:hover::before{
+    transform: scaleX(1);
+}
+
+.origin{
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center left;
+    display: flex;
+    justify-content: end;
+
+    box-sizing: border-box;
+}
+
+.fact{
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+
+    box-sizing: border-box;  
+}
+
+.fact .options{
+    width: 50%;
+    padding: 20px 50px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    
+    box-sizing: border-box;
+}
+
+.fact .options a{
+    background-color: black;
+    padding: 10px 50px;
+    font-size: 28px;
+    font-weight: bolder;
+    border-radius: 35px;
+    border: solid 3px rgb(2, 77, 175);
+    color: white;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+.fact .options a:hover{
+    box-shadow: 0px 15px 60px blueviolet;
+    transform: scale(1.1);
+}
+
+.info{
+    background: rgba(0, 0, 0, 0.822);
+    width: 50%;
+    margin: 30px 0;
+    padding: 50px;
+    height: auto;
+    color: white;
+    word-wrap: break-word;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.664);
+
+    box-sizing: border-box;
+}
+
+/**SUN*/
+#sun-about{
+    background-image: url(/assets/images/sun_background.jpg);
+}
+
+#sun-origin{
+    background-image: url(/assets/images/apolo_background.jpg);
+}
+
+#sun-facts{
+    background-image: url(/assets/images/sun_last.jpg);
+}
+
+/**MERCURY*/
+#mercury-about{
+    background-image: url(/assets/images/mercury_background.jpg);
+}
+
+#mercury-origin{
+    background-image: url(/assets/images/hermes_background.jpg);
+}
+
+#mercury-facts{
+    background-image: url(/assets/images/mercury_last.jpg);
+}
+
+/**VENUS*/
+#venus-about{
+    background-image: url(/assets/images/venus_background.jpg);
+}
+
+#venus-origin{
+    background-image: url(/assets/images/afrodita_background.jpg);
+}
+
+#venus-facts{
+    background-image: url(/assets/images/venus_last.jpg);
+}
+
+/**EARTH*/
+#earth-about{
+    background-image: url(/assets/images/earth_background.jpg);
+}
+
+#earth-origin{
+    background-image: url(/assets/images/dcomedy_background.jpg);
+}
+
+#earth-facts{
+    background-image: url(/assets/images/earth_gravity.jpeg);
+}
+
+/**MARS*/
+#mars-about{
+    background-image: url(/assets/images/mars_background.jpg);
+}
+
+#mars-origin{
+    background-image: url(/assets/images/ares_background.jpg);
+}
+
+#mars-facts{
+    background-image: url(/assets/images/cultive_background.jpg);
+}
+
+/**JUPITER*/
+#jupiter-about{
+    background-image: url(/assets/images/jupiter_background.jpg);
+}
+
+#jupiter-origin{
+    background-image: url(/assets/images/zeus_background.jpg);
+}
+
+#jupiter-facts{
+    background-image: url(/assets/images/jupiter_fact_background.jpg);
+}
+
+/**SATURN*/
+#saturn-about{
+    background-image: url(/assets/images/saturno_background.jpg);
+}
+
+#saturn-origin{
+    background-image: url(/assets/images/cronos_background.jpg);
+}
+
+#saturn-facts{
+    background-image: url(/assets/images/hexagono_background.jpg);
+}
+
+/**URANUS*/
+#uranus-about{
+    background-image: url(/assets/images/urano_background.jpg);
+}
+
+#uranus-origin{
+    background-image: url(/assets/images/urano_gea_background.png);
+}
+
+#uranus-facts{
+    background-image: url(/assets/images/urano_fact_background.jpg);
+}
+
+/**NEPTUNE*/
+#neptune-about{
+    background-image: url(/assets/images/neptune_background.jpg);
+}
+
+#neptune-origin{
+    background-image: url(/assets/images/poseidon_background.jpg);
+}
+
+#neptune-facts{
+    background-image: url(/assets/images/triton_background.jpg);
+}
+
+
+footer{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+footer p{
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+/** MEDIA QUERYS*/
+@media screen and (max-width: 1280px){
+    .menu{
+        justify-content: center;
+    }
+
+    .info{
+        width: 100%;
+    }
+
+    .fact .options{
+        width: 100%;
+        padding: 20px 20px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .menu{
+        padding: 10px;
+    }
+
+    .menu ul li > a{
+        padding: 10px;
+    }
+
+    .fact .options{
+        justify-content: space-around;
+    }
+
+    .about{
+        background-position: center center;
+    }
+
+    .origin{
+        background-position: center center;
+    }
+
+    .fact{
+        background-position: center center;
+    }
+        
+    
+}
+
+@media screen and (max-width: 550px){
+    .menu ul li > a{
+        font-size: 20px;
+    }
+
+    .fact .options{
+        padding: 10px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .fact .options a{
+        padding: 0px;
+        font-size: 20px;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+    
+    p{
+        margin: 0;
+        padding: 0;
+        font-size: 20px !important;
+    }
+
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer img{
+        max-width: 150px;
+    }
+}
