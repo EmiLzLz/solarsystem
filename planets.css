@@ -143,119 +143,119 @@ p{
 
 /**SUN*/
 #sun-about{
-    background-image: url(/assets/images/sun_background.jpg);
+    background-image: url(sun_background.jpg);
 }
 
 #sun-origin{
-    background-image: url(/assets/images/apolo_background.jpg);
+    background-image: url(apolo_background.jpg);
 }
 
 #sun-facts{
-    background-image: url(/assets/images/sun_last.jpg);
+    background-image: url(sun_last.jpg);
 }
 
 /**MERCURY*/
 #mercury-about{
-    background-image: url(/assets/images/mercury_background.jpg);
+    background-image: url(mercury_background.jpg);
 }
 
 #mercury-origin{
-    background-image: url(/assets/images/hermes_background.jpg);
+    background-image: url(hermes_background.jpg);
 }
 
 #mercury-facts{
-    background-image: url(/assets/images/mercury_last.jpg);
+    background-image: url(mercury_last.jpg);
 }
 
 /**VENUS*/
 #venus-about{
-    background-image: url(/assets/images/venus_background.jpg);
+    background-image: url(venus_background.jpg);
 }
 
 #venus-origin{
-    background-image: url(/assets/images/afrodita_background.jpg);
+    background-image: url(afrodita_background.jpg);
 }
 
 #venus-facts{
-    background-image: url(/assets/images/venus_last.jpg);
+    background-image: url(venus_last.jpg);
 }
 
 /**EARTH*/
 #earth-about{
-    background-image: url(/assets/images/earth_background.jpg);
+    background-image: url(earth_background.jpg);
 }
 
 #earth-origin{
-    background-image: url(/assets/images/dcomedy_background.jpg);
+    background-image: url(dcomedy_background.jpg);
 }
 
 #earth-facts{
-    background-image: url(/assets/images/earth_gravity.jpeg);
+    background-image: url(earth_gravity.jpeg);
 }
 
 /**MARS*/
 #mars-about{
-    background-image: url(/assets/images/mars_background.jpg);
+    background-image: url(mars_background.jpg);
 }
 
 #mars-origin{
-    background-image: url(/assets/images/ares_background.jpg);
+    background-image: url(ares_background.jpg);
 }
 
 #mars-facts{
-    background-image: url(/assets/images/cultive_background.jpg);
+    background-image: url(cultive_background.jpg);
 }
 
 /**JUPITER*/
 #jupiter-about{
-    background-image: url(/assets/images/jupiter_background.jpg);
+    background-image: url(jupiter_background.jpg);
 }
 
 #jupiter-origin{
-    background-image: url(/assets/images/zeus_background.jpg);
+    background-image: url(zeus_background.jpg);
 }
 
 #jupiter-facts{
-    background-image: url(/assets/images/jupiter_fact_background.jpg);
+    background-image: url(jupiter_fact_background.jpg);
 }
 
 /**SATURN*/
 #saturn-about{
-    background-image: url(/assets/images/saturno_background.jpg);
+    background-image: url(saturno_background.jpg);
 }
 
 #saturn-origin{
-    background-image: url(/assets/images/cronos_background.jpg);
+    background-image: url(cronos_background.jpg);
 }
 
 #saturn-facts{
-    background-image: url(/assets/images/hexagono_background.jpg);
+    background-image: url(hexagono_background.jpg);
 }
 
 /**URANUS*/
 #uranus-about{
-    background-image: url(/assets/images/urano_background.jpg);
+    background-image: url(urano_background.jpg);
 }
 
 #uranus-origin{
-    background-image: url(/assets/images/urano_gea_background.png);
+    background-image: url(urano_gea_background.png);
 }
 
 #uranus-facts{
-    background-image: url(/assets/images/urano_fact_background.jpg);
+    background-image: url(urano_fact_background.jpg);
 }
 
 /**NEPTUNE*/
 #neptune-about{
-    background-image: url(/assets/images/neptune_background.jpg);
+    background-image: url(neptune_background.jpg);
 }
 
 #neptune-origin{
-    background-image: url(/assets/images/poseidon_background.jpg);
+    background-image: url(poseidon_background.jpg);
 }
 
 #neptune-facts{
-    background-image: url(/assets/images/triton_background.jpg);
+    background-image: url(triton_background.jpg);
 }
 
 
