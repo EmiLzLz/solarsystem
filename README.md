@@ -1,12 +1,12 @@
 # solarsystem
 A landing page about the solar system
 
-##About
+About
 
 A page that contains information about the planets of our solar system ant the sun
 (facts, name concept and fun facts)
 
-##Technologies
+Technologies
 
 - HTML
 - CSS
